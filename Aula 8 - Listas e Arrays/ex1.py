@@ -1,3 +1,7 @@
+# Ler 2 vetores de tamanho N, com N informado
+# pelo usuário antes, somar os 2 vetores, imprimir
+# os 2 vetores e depois o vetor resultado.
+
 n = int(input("Qual o tamanho do vetor? "))
 while n < 0:
    print("Erro! O número de estudantes deve ser maior ou igual a 0.")

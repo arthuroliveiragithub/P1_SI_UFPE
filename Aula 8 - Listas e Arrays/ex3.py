@@ -1,3 +1,8 @@
+# Ler as notas de N alunos (N é informado pelo
+# usuário antes), calcular e imprimir a média das
+# notas e depois imprimir as notas que sejam
+# maiores do que a média calculada.
+
 n = int(input("Quantos alunos são? "))
 while n < 0:
    print("Erro! O número de estudantes deve ser maior ou igual a 0.")

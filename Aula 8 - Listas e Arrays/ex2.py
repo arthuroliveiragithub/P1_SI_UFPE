@@ -1,3 +1,8 @@
+# Ler uma lista de N números (N é informado pelo
+# usuário antes), e depois criar duas outras listas
+# com os números pares e ímpares separados. No
+# final imprimir as 3 listas.
+
 n = int(input("Qual o tamanho do vetor? "))
 while n < 0:
    print("Erro! O número de estudantes deve ser maior ou igual a 0.")
