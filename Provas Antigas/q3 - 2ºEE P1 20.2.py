@@ -38,9 +38,9 @@ try:
     with leitura, escrita:
         for linha in leitura:
             codigo = linha[0:3]
-            nome = linha[5:25]
-            qtdMinima = int(linha[26:30])
-            qtdAtual = int(linha[31:35])
+            nome = linha[4:24]
+            qtdMinima = int(linha[25:29])
+            qtdAtual = int(linha[30:34])
             qtdCompra = calculaCompra(qtdMinima, qtdAtual)
             if qtdCompra > 0:
                 escrita.write(f'{codigo} {nome} {qtdCompra}\n')
