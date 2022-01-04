@@ -29,6 +29,7 @@ def calculaTotal(string):
                    int(lista[6]) * float(lista[7]))
     return totalCompra
 
+
 try:
     arquivo = input("Digite o nome do arquivo de saída: ")
     formato = int(input("Digite o código do formato desejado (1-texto simples 2-texto-csv): "))
