@@ -1,4 +1,5 @@
 arma = int(input())
+nome_arma = ''
 
 if arma % 2 == 0:
     tipo_arma = "cortante"
@@ -6,22 +7,20 @@ else:
     tipo_arma = "atordoante"
 
 if arma == 1:
-    print("A arma corpo a corpo escolhida foi: Cassetete")
-    print(f"A arma corpo a corpo escolhida e {tipo_arma}")
+    nome_arma = "Cassetete"
 elif arma == 2:
-    print("A arma corpo a corpo escolhida foi: Garrafa de Whisky")
-    print(f"A arma corpo a corpo escolhida e {tipo_arma}")
+    nome_arma = "Garrafa de Whisky"
 elif arma == 3:
-    print("A arma corpo a corpo escolhida foi: Soco Ingles")
-    print(f"A arma corpo a corpo escolhida e {tipo_arma}")
+    nome_arma = "Soco Ingles"
 elif arma == 4:
-    print("A arma corpo a corpo escolhida foi: Lamina Escondida")
-    print(f"A arma corpo a corpo escolhida e {tipo_arma}")
+    nome_arma = "Lamina Escondida"
 elif arma == 5:
-    print("A arma corpo a corpo escolhida foi: Pe de Cabra")
-    print(f"A arma corpo a corpo escolhida e {tipo_arma}")
+    nome_arma = "Pe de Cabra"
 elif arma == 6:
-    print("A arma corpo a corpo escolhida foi: Canivete")
-    print(f"A arma corpo a corpo escolhida e {tipo_arma}")
+    nome_arma = "Canivete"
 elif arma < 1 or arma > 6:
     print("Numero invalido")
+
+if nome_arma != '':
+    print(f"A arma corpo a corpo escolhida foi: {nome_arma}")
+    print(f"A arma corpo a corpo escolhida e {tipo_arma}")
