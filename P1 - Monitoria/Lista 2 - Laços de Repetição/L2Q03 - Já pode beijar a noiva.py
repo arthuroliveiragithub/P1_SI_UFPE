@@ -1,16 +1,16 @@
 # https://www.dikastis.com.br/problems/01FW9V9CYD6B6X6Y3FBFY8VAQE
 
 local_desejado = int(input())
-progresso = int(input())
+progresso = 0
 output = ''
 soma = 0
 
 while progresso >= 0:
+    progresso = int(input())
     contador = 1
     while contador <= progresso:
         soma += contador
         contador += 1
-    progresso = int(input())
 
 if soma < local_desejado:
     output = "Ainda nos falta um pouco..."

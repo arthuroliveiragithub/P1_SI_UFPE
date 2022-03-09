@@ -15,17 +15,17 @@ while vidas > 0:
     if not repetida:
         letrasDigitadas += letra
 
-    for i in fraseCorreta:
-        if i == letra:
-            temLetra = True
-    if temLetra:
-        print("Parabens, voce conseguiu mais uma letra!")
-    else:
-        vidas -= 1
-        if vidas > 0:
-            print(f"Que pena, voce tem mais {vidas} chances!")
-        elif vidas <= 0:
-            print("Fim de jogo, sem almoco do anjo pra voce!")
+        for i in fraseCorreta:
+            if i == letra:
+                temLetra = True
+        if temLetra:
+            print("Parabens, voce conseguiu mais uma letra!")
+        else:
+            vidas -= 1
+            if vidas > 0:
+                print(f"Que pena, voce tem mais {vidas} chances!")
+            elif vidas <= 0:
+                print("Fim de jogo, sem almoco do anjo pra voce!")
 
     for i in fraseCorreta:
         posicao = False
